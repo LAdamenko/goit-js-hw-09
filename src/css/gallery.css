@@ -1,0 +1,22 @@
+ul {
+    display: flex;
+    width: 1440px;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.gallery-image {
+    width: 360px;
+}
+
+.gallery-image:hover,
+.gallery-image:focus {
+    width: 376px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    transform: translate(-8px, -4px);
+    margin-right: -16px;
+    margin-bottom: -16px;
+}
+
